@@ -19,7 +19,6 @@ def reply_definition_button():
     kbs_1 = [
         [types.KeyboardButton(text='Platinum')],[types.KeyboardButton(text='Gold')],[types.KeyboardButton(text='Premium')]
     ]
-    
     btns_1 = types.ReplyKeyboardMarkup(keyboard=kbs_1, resize_keyboard=True)
     return btns_1
 
